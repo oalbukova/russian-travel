@@ -393,6 +393,7 @@
 }
 
 .blockquote {
+  font-family: "Inter", Arial, sans-serif;
   max-width: 683px;
   min-height: 155px;
   font-size: 0.875rem;
@@ -515,9 +516,64 @@
   grid-gap: 16px;
 }
 
+@media (max-width: 1024px) {
+  .photos {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photos {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 0 24px;
+    grid-gap: 16px;
+  }
+}
+
+@media (max-width: 375px) {
+  .photos {
+    grid-template-columns: 1fr;
+    padding: 0 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photos {
+    grid-gap: 8px;
+  }
+}
+
 .main__photos {
   margin: 98px auto 0;
 }
+
+@media (max-width: 1024px) {
+  .main__photos {
+    margin: 90px auto 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__photos {
+    margin: 82px auto 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .main__photos {
+    margin: 47px auto 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .main__photos {
+    margin: 67px auto 0;
+  }
+}
+
 
 .photos__item {
   height: 188px;
@@ -526,22 +582,26 @@
 }
 
 @media (max-width: 1024px) {
-  .photos {
-    grid-template-columns: repeat (3, 1fr);
-    grid-template-rows: repeat (4, 1fr);
+  .photos__item {
+    height: 200px;
   }
 }
 
 @media (max-width: 768px) {
-  .photos {
-    grid-template-columns: repeat (2, 1fr);
-    grid-template-rows: repeat (6, 1fr);
+  .photos__item {
+    height: 234px;
   }
 }
 
 @media (max-width: 375px) {
-  .photos {
-    grid-template-columns: 1fr;
+  .photos__item {
+    height: 232px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photos__item {
+    height: 192px;
   }
 }
 
@@ -575,7 +635,7 @@
   font-weight: 900;
 }
 
-.title_place_places {
+.title_place_place {
   max-width: 457px;
   margin: 80px 0 0;
   line-height: 0.87;
@@ -625,7 +685,7 @@
   font-weight: 400;
 }
 
-.desc_place_places {
+.desc_place_place {
   line-height: 1.7;
 }
 
@@ -633,11 +693,7 @@
   margin-top: 23px;
 }
 
-/*@media screen and (max-width: 768px) {
-  html {
-    font-size: 10px;
-  }
-  
+/*
   .place {
     display: block;
   }
