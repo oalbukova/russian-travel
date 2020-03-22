@@ -1,49 +1,49 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Ольга Альбукова" />
-    <meta
-      name="description"
-      content="портфолио Ольги Альбуковой на Яндекс Практикум"
-    />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link href="./fonts/fonts.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <title>Путешествия по России</title>
-  </head>
 
-  <body>
-    <div class="page">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Ольга Альбукова" />
+  <meta name="description" content="портфолио Ольги Альбуковой на Яндекс Практикум" />
+  <link rel="stylesheet" href="./styles/normalize.css" />
+  <link href="./fonts/fonts.css" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <title>Путешествия по России</title>
+</head>
+
+<body>
+  <div class="page">
+    <div class="content">
       <!-- header-->
-      <header class="header page__header">
+      <header class="header content__header">
         <a href="#" target="_blank">
           <img class="logo" src="./images/logo.png" alt="Россия" />
         </a>
         <ul class="lang-container">
           <!--Подчеркивания языка появится при нажатии на выбраный язык (могу и модификатором подчеркнуть, но так логичнее было сделать... вообще задумывалась про радиокнопки)))))))-->
           <li>
-            <a class="lang" href="#">Ru</a>
+            <a class="lang-container__lang" href="#">Ru</a>
           </li>
           <li>
-            <a class="lang" href="#">En</a>
+            <a class="lang-container__lang" href="#">En</a>
           </li>
         </ul>
       </header>
-      <main class="main">
+      <!--main-->
+      <main>
         <!--lead-->
         <section class="lead main__lead">
-          <h1 class="lead__title">Путешествия по России</h1>
-          <p class="lead__subtitle">
+          <h1 class="lead__title  padding">Путешествия по России</h1>
+          <p class="lead__subtitle  padding">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <div class="lead__img"></div>
-          <p class="caption caption_place_lead">ваша полка — верхняя</p>
+          <img class="lead__img" src="./images/lead.png" alt "картинка женщина в поезде">
+          <p class="lead__caption">ваша полка — верхняя</p>
         </section>
 
         <!--intro-->
-<!--
+        
         <section class="intro main__intro">
           <h2 class="intro__title">Чего мы там не видели?</h2>
           <blockquote class="blockquote blockquote_place_intro">
@@ -59,15 +59,16 @@
             вашего отпуска.
           </blockquote>
           <ul class="text-container">
-            <li class="intro__text">Часовых поясов <span class="intro__text intro__text_thin">11</span></li>
-            <li class="intro__text">Объектов природного наследия ЮНЕСКО <span class="intro__text intro__text_thin">12</span></li>
-            <li class="intro__text">Объектов культурного наследия ЮНЕСКО <span class="intro__text intro__text_thin">16</span></li>
-            <li class="intro__text">Природных заповедников <span class="intro__text intro__text_thin">105</span></li>
-            <li class="intro__text">Аэропортов <span class="intro__text intro__text_thin">241</span></li>
+            <li class="text-container__text">Часовых поясов <span class="text-container__text text-container__text_thin">11</span></li>
+            <li class="text-container__text">Объектов природного наследия ЮНЕСКО <span class="text-container__text text-container__text_thin">12</span></li>
+            <li class="text-container__text">Объектов культурного наследия ЮНЕСКО <span class="text-container__text text-container__text_thin">16</span></li>
+            <li class="text-container__text">Природных заповедников <span class="text-container__text text-container__text_thin">105</span></li>
+            <li class="text-container__text">Аэропортов <span class="text-container__text text-container__text_thin">241</span></li>
           </ul>
         </section>
 
-        <!--photos--><!--
+        <!--photos-->
+        <!--
         <section class="photos main__photos">
           <img
             class="photos__item"
@@ -115,7 +116,8 @@
           />
         </section>
 
-        <!--places--><!---
+        <!--places-->
+        <!---
         <section class="places main__places">
           <div class="place places__place">
             <h2 class="title title_place_places">Куршская коса</h2>
@@ -275,7 +277,8 @@
           </div>
         </section>
 
-        <!--video--><!---
+        <!--video-->
+        <!---
         <section class="video main__video">
           <h2 class="title title_place_video">В глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
           <p class="text video__subtitle">
@@ -325,7 +328,8 @@
           </div>
         </section>
 
-        <!--comments--><!--
+        <!--comments-->
+        <!--
         <section class="comments main__comments ">
           <h2 class="title title_place_comments">
             Фотографы, снимающие Россию
@@ -384,7 +388,8 @@
           </div>
         </section>
 
-        <!--cover--><!--
+        <!--cover-->
+        <!--
         <section class="cover">
           <div class="cover__wrapper cover__wrapper_character_terminal"></div>
           <h2 class="title cover__title">До Байкала «на собаках»</h2>
@@ -395,7 +400,8 @@
         </section>
       </main>
 
-      <!--footer--><!--
+      <!--footer-->
+        <!--
       <footer class="footer">
         <nav class="nav">
           <ul class="nav__list">
@@ -420,5 +426,7 @@
       </footer>
     -->
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
