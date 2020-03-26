@@ -1,0 +1,27 @@
+.main__photos {
+  margin: 98px auto 0;
+}
+
+@media (max-width: 1024px) {
+  .main__photos {
+    margin: 90px auto 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .main__photos {
+    margin: 82px auto 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .main__photos {
+    margin: 45px auto 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .main__photos {
+    margin: 62px auto 0;
+  }
+}

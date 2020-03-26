@@ -1,0 +1,32 @@
+.cards__author {
+  font-size: 0.875rem;
+  font-weight: 900;
+  padding-bottom: 85px;
+}
+
+@media (max-width: 780px) {
+  .cards__author {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    padding-bottom: 0;
+  }
+}
+
+@media (max-width: 780px) {
+  .cards__author:first-of-type {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 17px auto 17px;
+  }
+}
+
+@media (max-width: 375px) {
+  .cards__author:first-of-type {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 16px auto 17px;
+  }
+}

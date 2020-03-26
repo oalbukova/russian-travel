@@ -1,0 +1,28 @@
+@import url(./__title/intro__title.css);
+
+.intro {
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 984px;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    max-width: 928px;
+    width: 90.625%;
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    width: 93.75%;
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro {
+    width: 91.47%;
+    max-width: 343px;
+  }
+}

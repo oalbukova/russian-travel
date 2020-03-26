@@ -1,0 +1,31 @@
+.lang-container__lang {
+  color: white;
+  line-height: 0.94;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 20px;
+  transition: opacity linear 0.5s;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+@media (max-width: 375px) {
+  .lang-container__lang {
+    font-size: 18px;
+    padding-left: 25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lang-container__lang {
+    padding-left: 19px;
+  }
+}
+
+.lang-container__lang:focus {
+  text-decoration: underline white;
+}
+
+.lang-container__lang:hover {
+  opacity: 0.7;
+}

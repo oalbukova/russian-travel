@@ -1,0 +1,33 @@
+.footer__author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.41;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: opacity linear 0.5s;
+  transition: opacity linear 0.5s;
+}
+
+.footer__author:hover{
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+@media (max-width: 970px) {
+  .footer__author {
+    margin: 0;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer__author {
+    padding-bottom: 24px;
+    padding-top: 20px;
+  }
+}

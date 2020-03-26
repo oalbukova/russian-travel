@@ -1,0 +1,20 @@
+
+.text-container__text {
+  max-width: 383px;
+  font-size: 0.81rem;
+  font-weight: 700;
+  line-height: 1.58;
+}
+
+@media (max-width: 375px) {
+  .text-container__text {
+    font-size: 12px;
+    line-height: 19.3px;
+  }
+}
+
+@media (max-width: 320px) {
+  .text-container__text {
+    line-height: 19px;
+  }
+}

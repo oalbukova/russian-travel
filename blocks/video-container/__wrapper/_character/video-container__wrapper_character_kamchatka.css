@@ -1,0 +1,22 @@
+.video-container__wrapper {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.video-container__wrapper_character_kamchatka {
+  background-image: url(../../../../images/kamchatka.jpg);
+  border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.9s ease-in-out;
+  transition: -webkit-transform 0.9s ease-in-out;
+  transition: transform 0.9s ease-in-out;
+  transition: transform 0.9s ease-in-out, -webkit-transform 0.9s ease-in-out;
+}
+
+.video-container__item:hover .video-container__wrapper_character_kamchatka {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}

@@ -1,0 +1,28 @@
+@import url(./_place/blockquote_place_intro.css);
+
+.blockquote {
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 683px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .blockquote {
+    max-width: 692px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blockquote {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 375px) {
+  .blockquote {
+    max-width: 340px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,22 @@
+@import url(./__title/comments__title.css);
+@import url(./__subtitle/comments__subtitle.css);
+
+.comments {
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 1184px;
+  padding: 0 48px;
+}
+
+@media (max-width: 1024px) {
+  .comments {
+    max-width: 928px;
+    width: 90.625%;
+  }
+}
+
+@media (max-width: 768px) {
+  .comments {
+    width: 100%;
+    padding: 0;
+  }
+}

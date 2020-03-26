@@ -1,0 +1,30 @@
+.photos__item {
+  height: 188px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .photos__item {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .photos__item {
+    height: 234px;
+  }
+}
+
+@media (max-width: 375px) {
+  .photos__item {
+    height: 232px;
+  }
+}
+
+@media (max-width: 320px) {
+  .photos__item {
+    height: 192px;
+  }
+}

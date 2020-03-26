@@ -1,0 +1,60 @@
+@import url(./__author/footer__author.css);
+
+.footer {
+  font-family: "Inter", Arial, sans-serif;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 155px 0 48px;
+  max-width: 1184px;
+  margin: 0 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 82.3%;
+}
+
+@media (max-width: 1280px) {
+  .footer {
+    width: 92.5%;
+    max-width: 1184px;
+  }
+}
+
+@media (max-width: 1024px) {	
+  .footer {
+    width: 90.625%;
+    max-width: 928px;
+    padding: 157px 0 48px;
+  }
+}
+
+@media (max-width: 970px) {
+  .footer {
+    max-width: 722px;
+    width: 94%;
+    padding: 100px 0 24px;
+  }
+}
+
+@media (max-width: 710px) {
+  .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 59px 0 24px 24px;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    width: 100%;
+    padding: 59px 16px 24px;
+  }
+}

@@ -1,0 +1,34 @@
+@import url(./__item/video-container__item.css);
+@import url(./__wrapper/video-container__wrapper.css);
+@import url(./__wrapper/_character/video-container__wrapper_character_kamchatka.css);
+@import url(./__wrapper/_character/video-container__wrapper_character_Observatory.css);
+@import url(./__icon-play/video-container__icon-play.css);
+
+.video-container {
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.52%;
+}
+
+@media (max-width: 630px) {
+  .video-container {
+        grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  .video-container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 375px) {
+  .video-container {
+    width: 100%;
+    padding: 0 16px;
+    grid-gap: 8px;
+  }
+}
