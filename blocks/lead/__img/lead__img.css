@@ -1,12 +1,12 @@
 .lead__img {
   width: 100%;
-  height: 544px;
+  height: 554px;
   display: block;
   -o-object-fit: cover;
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  margin: auto;
+  margin: 0;
 }
 
 @media (max-width: 900px) {
@@ -42,12 +42,5 @@
 @media (max-width: 375px) {
   .lead__img {
     max-height: 211px;
-  }
-}
-
-@media (max-width: 320px) {
-  .lead__img {
-    -o-object-fit: contain;
-       object-fit: contain;
   }
 }

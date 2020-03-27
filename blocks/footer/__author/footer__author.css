@@ -8,15 +8,7 @@
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.41;
-  text-decoration: none;
   color: white;
-  -webkit-transition: opacity linear 0.5s;
-  transition: opacity linear 0.5s;
-}
-
-.footer__author:hover{
-  opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 }
 
 @media (max-width: 970px) {

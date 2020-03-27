@@ -1,23 +1,4 @@
 
 .cover__wrapper_character_terminal {
-  background-image: url(../../../../images/cover-bg.jpg);
-  height: 100%;
-  width: 100%;
-  -webkit-transition: opacity linear 0.5s;
-  transition: opacity linear 0.5s;
-}
 
-.cover:hover .cover__wrapper_character_terminal {
-  opacity: 0.7;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
-}
-
-@media (max-width: 320px) {
-.cover__wrapper_character_terminal {
-  background-image: url(../../../../images/cover1.jpg);
-  height: 100%;
-  width: 100%;
-  -webkit-transition: opacity linear 0.5s;
-  transition: opacity linear 0.5s;
-}
 }

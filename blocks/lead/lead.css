@@ -1,11 +1,12 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__container/lead__container.css);
 @import url(./__img/lead__img.css);
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  width: 100%;
   font-family: "Inter", Arial, sans-serif;
+  width: 100%;
   max-width: 984px;
   box-sizing: border-box;
 }

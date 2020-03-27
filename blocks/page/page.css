@@ -9,11 +9,10 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   font-size: 16px;
-  background-color: #2a2c2f;
   color: white;
+  background-color: #2a2c2f;
   width: 100%;
   min-width: 320px;
-  max-width: 1440px;
   margin: 0 auto;
   box-sizing: border-box;
 }

@@ -5,6 +5,7 @@
   font-family: "Inter", Arial, sans-serif;
   list-style-type: none;
   padding: 0;
+  margin: 14px 0;
 }
 
 @media (max-width: 1024px) {
@@ -15,7 +16,7 @@
 
 @media (max-width: 768px) {
   .text-container {
-    padding: 9px 0;
+    padding: 14px 0;
   }
 }
 

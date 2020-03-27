@@ -3,7 +3,7 @@
   max-width: 583px;
   font-size: 1.875rem;
   font-weight: 400;
-  margin: 39px auto 78px;
+  margin: 39px auto 73px;
   text-align: center;
   padding: 0 16px;
 }
@@ -28,5 +28,11 @@
     font-size: 16px;
     line-height: 23px;
     margin: 13px auto 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    margin: 13px auto 34px;
   }
 }

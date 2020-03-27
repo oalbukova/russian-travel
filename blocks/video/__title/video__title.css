@@ -15,7 +15,7 @@
 
 @media (max-width: 1024px) {
   .video__title {
-    margin: 105px auto 35px;
+    margin: 83px auto 35px;
   }
 }
 
@@ -23,7 +23,7 @@
   .video__title {
     font-size: 42px;
     line-height: 46px;
-    margin: 98px auto 31px;
+    margin: 83px auto 31px;
     max-width: 600px;
   }
 }
@@ -32,7 +32,7 @@
   .video__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 53px auto 22px;
+    margin: 55px auto 22px;
     max-width: 343px;
   }
 }

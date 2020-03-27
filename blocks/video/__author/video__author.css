@@ -1,0 +1,16 @@
+.video__author {
+  max-width: 285px;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 400;
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  bottom: -11px
+}
+
+@media (max-width: 375px) {
+  .video__author {
+    bottom: -9px
+  }
+}

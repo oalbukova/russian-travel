@@ -22,10 +22,6 @@
   }
 }
 
-.lang-container__lang:focus {
-  text-decoration: underline white;
-}
-
 .lang-container__lang:hover {
   opacity: 0.7;
 }

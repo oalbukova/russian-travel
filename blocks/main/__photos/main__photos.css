@@ -1,5 +1,5 @@
 .main__photos {
-  margin: 98px auto 0;
+  margin: 96px auto 0;
 }
 
 @media (max-width: 1024px) {
@@ -10,7 +10,7 @@
 
 @media (max-width: 768px) {
   .main__photos {
-    margin: 82px auto 0;
+    margin: 77px auto 0;
   }
 }
 

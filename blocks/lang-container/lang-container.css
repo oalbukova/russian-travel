@@ -1,4 +1,5 @@
 @import url(./__lang/lang-container__lang.css);
+@import url(./__lang/_active/lang-container__lang_active.css);
 
 .lang-container {
   font-family: "Inter", Arial, sans-serif;

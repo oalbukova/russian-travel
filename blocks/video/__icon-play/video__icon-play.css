@@ -1,0 +1,65 @@
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+
+  to {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+}
+
+.video__icon-play {
+  width: 41px;
+  height: 41px;
+  background-image: url(./../../../images/__icon_play.svg);
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  top: 31px;
+  left: 30px;
+  margin: 0;
+  z-index: 2;
+  -webkit-animation: pulse 1s ease-in-out infinite alternate-reverse;
+          animation: pulse 1s ease-in-out infinite alternate-reverse;
+}
+
+@media (max-width: 1024px) {
+  .video__icon-play {
+    top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .video__icon-play {
+    top: 25px;
+    left: 27px;
+  }
+}
+
+@media (max-width: 375px) {
+  .video__icon-play {
+    left: 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .video__icon-play {
+    top: 16px;
+    left: 16px;
+  }
+}
+

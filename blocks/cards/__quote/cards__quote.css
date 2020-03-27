@@ -1,10 +1,15 @@
 .cards__quote {
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 683px;
+  font-size: 0.875rem;
+  font-weight: 400;
   margin: 36px 0 5px;
   line-height: 1.65;
 }
 
 @media (max-width: 1024px) {
   .cards__quote {
+    max-width: 692px;
     margin: 35px 0 7px;
     line-height: 24px;
   }
@@ -18,11 +23,16 @@
         -ms-flex-order: 2;
             order: 2;
     margin: 2px 0 7px;
+    max-width: 720px;
   }
 }
 
 @media (max-width: 375px) {
   .cards__quote {
+    max-width: 340px;
+    font-size: 16px;
+    font-weight: 400;
     margin: 4px 0 7px;
   }
 }
+

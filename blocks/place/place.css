@@ -1,5 +1,7 @@
 @import url(./__image/place__image.css);
 @import url(./__title/place__title.css);
+@import url(./__pharagraphs/place__paragraphs.css);
+@import url(./__text/place__text.css);
 
 .place {
   font-family: "Inter", Arial, sans-serif;
@@ -18,7 +20,7 @@
 
 @media (max-width: 768px) {
   .place {
-    grid-row-gap: 44px;
+    grid-row-gap: 27px;
   }
 }
 

@@ -1,0 +1,40 @@
+
+.intro__blockquote {
+  font-family: "Inter", Arial, sans-serif;
+  max-width: 683px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 33px 0 0;
+}
+
+@media (max-width: 1024px) {
+  .intro__blockquote {
+    max-width: 692px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro__blockquote {
+    max-width: 720px;
+    line-height: 1.72;
+  }
+}
+
+@media (max-width: 375px) {
+  .intro__blockquote {
+    max-width: 340px;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 31px 0 15px;
+    line-height: 27.25px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__blockquote {
+    margin: 38px 2px 15px;
+    line-height: 27.11px;
+  }
+}
+
