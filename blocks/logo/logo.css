@@ -3,6 +3,7 @@
 .logo{
   -webkit-transition: opacity linear 0.5s;
   transition: opacity linear 0.5s;
+  box-sizing: border-box;
 }
 
 .logo:hover {

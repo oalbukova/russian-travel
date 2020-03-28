@@ -4,6 +4,7 @@
 .intro {
   font-family: "Inter", Arial, sans-serif;
   max-width: 984px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {

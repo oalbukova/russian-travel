@@ -5,7 +5,9 @@
 @import url(./__video/main__video.css);
 @import url(./__comments/main__comments.css);
 
-
+.main {
+  box-sizing: border-box;
+}
 
 
 

@@ -4,6 +4,7 @@
 @import url(./__author/cards__author.css);
 
 .cards {
+  box-sizing: border-box;
   font-family: "Inter", Arial, sans-serif;
   width: 100%;
   margin: 0 auto;

@@ -10,6 +10,7 @@
       grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 15px;
   grid-row-gap: 60px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {

@@ -8,6 +8,7 @@
   flex-direction: row;
   margin: 0;
   padding-bottom: 12px;
+  box-sizing: border-box;
 }
 
 @media (max-width: 375px) {
