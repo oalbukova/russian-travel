@@ -1,5 +1,59 @@
 .cover__link {
   text-decoration: none;
   color: white;
-  }
+  display: flex;
+  max-width: 1184px;
+  height: 594px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url(../../../images/cover-bg.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; 
+}
 
+.cover__link::before {
+  display: block;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  opacity: 0.3;
+  transition: opacity linear 0.5s;
+}
+
+.cover__link:hover::before {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}
+
+@media (max-width: 1024px) {
+  .cover__link {
+      min-height: 562px;
+      height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cover__link {
+      min-height: 500px;
+  }
+}
+
+@media (max-width: 479px) {
+  .cover__link {
+      min-height: 272px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cover__link {
+      min-height: 216px;
+  }
+}
