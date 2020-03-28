@@ -1,0 +1,12 @@
+.logo__img{
+  width: 177px;
+  height: 52px;
+  -webkit-transition: opacity linear 0.5s;
+}
+
+@media (max-width: 375px) {
+  .logo__img{
+    width: 142px;
+    height: 42px;
+  }
+}
