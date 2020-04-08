@@ -13,6 +13,7 @@
 7. Присутствуют переиспользованные компоненты.
 8. Сайт является кроссбраузерным.
 9. Верстка сайта происходила согласно: [макет Фигма](<https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-(mobile)-(Copy)?node-id=0%3A1>) под Pixel Perfect.
+10. Страница проекта: https://oalbukova.github.io/russian-travel/.
 
 :octocat: This project looks great! Isn't it? :+1:
 
