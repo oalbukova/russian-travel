@@ -10,7 +10,7 @@
   box-sizing: border-box;
 }
 
-.cover:hover .cover__container::before {
+.cover:hover .cover::before {
   opacity: 0.5;
   transition: opacity 0.3s linear;
 }

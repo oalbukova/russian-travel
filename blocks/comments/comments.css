@@ -4,13 +4,13 @@
 .comments {
   font-family: "Inter", Arial, sans-serif;
   max-width: 1184px;
+  width: 90.625%;
   box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
   .comments {
     max-width: 928px;
-    width: 90.625%;
   }
 }
 
